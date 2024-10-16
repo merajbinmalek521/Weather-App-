@@ -56,7 +56,7 @@ body {
     font-size: 1.5rem;
 }
 
-.weather-icon {
+/* .weather-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +64,14 @@ body {
     height: 150px;
     width: 150px;
     margin-left: 10rem;
+} */
+
+.weather i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    margin-top: 2rem;
 }
 
 .weather h1 {
@@ -85,22 +93,40 @@ body {
     margin-top: 2rem;
 }
 
-.humidity-icon {
+/* .humidity-icon {
     display: flex;
     justify-content: left;
     align-items: left;
     margin-top: 2rem;
     height: 100px;
     width: 100px;
+} */
+
+.humidity-icon i {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 4rem;
 }
 
-.wind-icon {
+/* .wind-icon {
     display: flex;
     justify-content: right;
     align-items: right;
     margin-top: 2rem;
     height: 100px;
     width: 100px;
+} */
+
+.wind-icon i {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-size: 4rem;
 }
 
 .humidity, .wind {
